@@ -82,10 +82,10 @@ class Play extends Phaser.Scene {
             this.scene.start("menuScene");
         }
 
-        this.starfield.tilePositionX -= 4;  // scroll tile sprite
+        this.starfield.tilePositionX -= 4;  
         if (!this.gameOver) {               
-            this.p1Rocket.update();         // update rocket sprite
-            this.ship01.update();           // update spaceships (x3)
+            this.p1Rocket.update();         
+            this.ship01.update();           
             this.ship02.update();
             this.ship03.update();
         }             
